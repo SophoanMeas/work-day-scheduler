@@ -10,12 +10,12 @@ $(document).ready(function() {
             hour = parseInt($(this).attr("id"));
             // console.log(hour)
 
-            if (currentTime < hour) {
+            if (currentTime > hour) {
                 $(this).siblings().addClass("past"); // add class "pass" to change grey
             } else if (currentTime === hour) {
-                $(this).siblings().addClass("present"); // add class "present" to change green
+                $(this).siblings().addClass("present"); // add class "present" to change red
             } else {
-                $(this).siblings().addClass("future"); // add class "pass" to change red
+                $(this).siblings().addClass("future"); // add class "pass" to change green
             }
         })
     }
