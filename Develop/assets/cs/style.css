@@ -1,16 +1,29 @@
+:root {
+    --primary-color: #ffffff;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
 }
 
+.adding-tasks {
+    color: red;
+}
+
 textarea {
     background: transparent;
     border: none;
     resize: none;
-    color: #000000;
     border-left: 1px solid black;
     padding: 10px;
+    color: var(--primary-color)
+}
+
+.task:hover {
+    background-color: #e0e0e0d7;
+    opacity: 1;
 }
 
 .jumbotron {
@@ -34,28 +47,27 @@ textarea {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
-    ;
 }
 
 .hour {
-    background-color: #ffffff;
+    background-color: var(--primary-color);
     color: #000000;
     border-top: 1px dashed #000000;
 }
 
 .past {
     background-color: #d3d3d3;
-    color: rgb(94, 93, 93);
+    color: rgb(46, 45, 45);
 }
 
 .present {
     background-color: #ff6961;
-    color: rgb(241, 52, 52);
+    color: rgb(134, 30, 30);
 }
 
 .future {
     background-color: #77dd77;
-    color: rgb(79, 245, 87);
+    color: rgb(64, 165, 69);
 }
 
 .saveBtn {
@@ -63,7 +75,7 @@ textarea {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
-    color: white;
+    color: var(--primary-color);
 }
 
 .saveBtn i:hover {
