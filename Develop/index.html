@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
 
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/cs/style.css" />
     <title>Work Day Scheduler</title>
 </head>
 
@@ -21,61 +21,69 @@
         <p class="lead">A simple calendar app for scheduling your work day</p>
         <p id="currentDay" class="lead"></p>
     </header>
-
     <div class="container">
         <!-- Timeblock 9AM -->
-        <div class="row">
-            <div class="col-1 hour pt-2" id="hours">9:00AM</div>
-            <textarea class="col-10 task" id="9"></textarea>
-            <button class="col col-sm-1 saveBtn"><span class="oi oi-task"></span></button>
+        <div class="row time-block">
+            <div class="col-1 hour pt-4" id="hours">9:00AM</div>
+            <textarea class="col task d-flex justify-content-center task"></textarea>
+            <button class="col-1 saveBtn"><span class="fas fa-save"></span>
+          </button>
         </div>
-        <!-- TimeBlock 10AM -->
-        <div class="row">
-            <div class="col-1 hour pt-2" id="hours">10:00AM</div>
-            <textarea class="col-10 task" id="10"></textarea>
-            <button class="col-1 saveBtn"><span class="oi oi-task"></span></button>
+        <!-- Timeblock 10AM-->
+        <div class="row time-block">
+            <div class="col-1 hour pt-4" id="hours">10:00AM</div>
+            <textarea class="col task d-flex justify-content-center task"></textarea>
+            <button class="col-1 saveBtn"><span class="fas fa-save"></span>
+          </button>
         </div>
-        <!-- TimeBlock 11AM -->
-        <div class="row">
-            <div class="col-1 hour pt-2" id="hours">11:00AM</div>
-            <textarea class="col-10 task" id="11"></textarea>
-            <button class="col-1 saveBtn"><span class="oi oi-task"></span></button>
+        <!-- Timeblock 11AM-->
+        <div class="row time-block">
+            <div class="col-1 hour pt-4" id="hours">11:00AM</div>
+            <textarea class="col task d-flex justify-content-center"></textarea>
+            <button class="col-1 saveBtn"><span class="fas fa-save"></span>
+                  </button>
         </div>
-        <!-- TimeBlock 12PM -->
-        <div class="row">
-            <div class="col-1 hour pt-2" id="hours">12:00PM</div>
-            <textarea class="col-10 task" id="12"></textarea>
-            <button class="col-1 saveBtn"><span class="oi oi-task"></span></button>
+        <!-- Timeblock 12PM-->
+        <div class="row time-block">
+            <div class="col-1 hour pt-4" id="hours">12:00PM</div>
+            <textarea class="col task d-flex justify-content-center"></textarea>
+            <button class="col-1 saveBtn"><span class="fas fa-save"></span>
+                  </button>
         </div>
-        <!-- TimeBlock 1PM -->
-        <div class="row">
-            <div class="col-1 hour pt-2" id="hours">1:00PM</div>
-            <textarea class="col-10 task" id="13"></textarea>
-            <button class="col-1 saveBtn"><span class="oi oi-task"></span></button>
+        <!-- Timeblock 1PM-->
+        <div class="row time-block">
+            <div class="col-1 hour pt-4" id="hours">1:00PM</div>
+            <textarea class="col task d-flex justify-content-center"></textarea>
+            <button class="col-1 saveBtn"><span class="fas fa-save"></span>
+          </button>
         </div>
-        <!-- TimeBlock 2PM -->
-        <div class="row">
-            <div class="col-1 hour pt-2" id="hours">2:00PM</div>
-            <textarea class="col-10 task" id="14"></textarea>
-            <button class="col-1 saveBtn"><span class="oi oi-task"></span></button>
+        <!-- Timeblock 2PM-->
+        <div class="row time-block">
+            <div class="col-1 hour pt-4" id="hours">2:00PM</div>
+            <textarea class="col task d-flex justify-content-center"></textarea>
+            <button class="col-1 saveBtn"><span class="fas fa-save"></span>
+                  </button>
         </div>
-        <!-- TimeBlock 3PM -->
-        <div class="row">
-            <div class="col-1 hour pt-2" id="hours">3:00PM</div>
-            <textarea class="col-10 task" id="15"></textarea>
-            <button class="col-1 saveBtn"><span class="oi oi-task"></span></button>
+        <!-- Timeblock 3PM-->
+        <div class="row time-block">
+            <div class="col-1 hour pt-4" id="hours">3:00PM</div>
+            <textarea class="col task d-flex justify-content-center"></textarea>
+            <button class="col-1 saveBtn"><span class="fas fa-save"></span>
+          </button>
         </div>
-        <!-- TimeBlock 4PM -->
-        <div class="row">
-            <div class="col-1 hour pt-2" id="hours">4:00PM</div>
-            <textarea class="col-10 task" id="16"></textarea>
-            <button class="col-1 saveBtn"><span class="oi oi-task"></span></button>
+        <!-- Timeblock 4PM-->
+        <div class="row time-block">
+            <div class="col-1 hour pt-4" id="hours">4:00PM</div>
+            <textarea class="col task d-flex justify-content-center"></textarea>
+            <button class="col-1 saveBtn"><span class="fas fa-save"></span>
+                  </button>
         </div>
-        <!-- TimeBlock 5PM -->
-        <div class="row">
-            <div class="col-1 hour pt-2" id="hours">5:00PM</div>
-            <textarea class="col-10 task" id="17"></textarea>
-            <button class="col-1 saveBtn"><span class="oi oi-task"></span></button>
+        <!-- Timeblock 5PM-->
+        <div class="row time-block">
+            <div class="col-1 hour pt-4" id="hours">5:00PM</div>
+            <textarea class="col task d-flex justify-content-center"></textarea>
+            <button class="col-1 saveBtn"><span class="fas fa-save"></span>
+          </button>
         </div>
         <!-- end of container -->
     </div>
