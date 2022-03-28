@@ -12,7 +12,7 @@
     <li>Luanch the index.html file in your browser to open the application</li>
 
 ## Application
-<a href="https://sophoanmeas.github.io/Carleton-University-Web-Dev/03-JavaScript/Develop/" target="_blank"><h2>➡️Work Day Scheduler</a>
+<a href="https://sophoanmeas.github.io/work-day-scheduler/Develop" target="_blank"><h2>➡️Work Day Scheduler</a>
 
 ## Functions/Features
 
