@@ -22,9 +22,9 @@
 * 🌟 A message appear for a briefy moment to indicate that the data has been saved/cleared
 * 🌟 The user can enter the task for the different time block
 * 🌟 The time block is color coded depending on the user time of day; PAST, PRESENT, OR FUTURE
-  * ![#F2EDDC](https://via.placeholder.com/15/F2EDDC/000000?text=+) `PAST` 
-  * ![#D96A29](https://via.placeholder.com/15/D96A29/000000?text=+) `PRESENT`
-  * ![#69AFBF](https://via.placeholder.com/15/1589F0/000000?text=+) `FUTURE` 
+  * ![#d3d3d3](https://via.placeholder.com/15/d3d3d3/000000?text=+) `PAST` 
+  * ![#ff6961](https://via.placeholder.com/15/ff6961/000000?text=+) `PRESENT`
+  * ![#77dd77](https://via.placeholder.com/15/77dd77/000000?text=+) `FUTURE` 
 
 ## Screenshot
 ![Alt text](https://github.com/SophoanMeas/work-day-scheduler/blob/main/Develop/assets/img/screenshot.gif)
