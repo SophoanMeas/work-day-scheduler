@@ -9,7 +9,7 @@
     <li>Click on the link to open the application</li>
     <li>Or you can clone the repository</li>
     <li>Use visual code or any text editor to view the source code. </li>
-    <li>Luanch the index.html file in your browser to open the application</li>
+    <li>Launch the index.html file in your browser to open the application</li>
 
 ## Application
 <a href="https://sophoanmeas.github.io/work-day-scheduler/Develop" target="_blank"><h2>➡️Work Day Scheduler</a>
