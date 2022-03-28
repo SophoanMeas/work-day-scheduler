@@ -37,7 +37,7 @@ $(document).ready(function() {
         $(".hour").each(function() {
             const hour = $(this).text();
             const savedTasks = localStorage.getItem(hour);
-            console.log(hour)
+//             console.log(hour)
             if (savedTasks !== null & savedTasks != '') {
                 $(this).siblings(".task").val(savedTasks)
             }
