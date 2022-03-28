@@ -12,15 +12,15 @@
     <li>Luanch the index.html file in your browser to open the application</li>
 
 ## Application
-➡️<a href="https://sophoanmeas.github.io/Carleton-University-Web-Dev/03-JavaScript/Develop/" target="_blank"><h2>➡️Work Day Scheduler</a>
+<a href="https://sophoanmeas.github.io/Carleton-University-Web-Dev/03-JavaScript/Develop/" target="_blank"><h2>➡️Work Day Scheduler</a>
 
 ## Functions/Features
-*🌟 User is able to save the data in the local storage when the user pressed the save button
-*🌟 User is able to clear the data in the local storage when the user pressed the save button
-*🌟 The app retain the information when the close the browser and revisit the next time
-*🌟 A message appear for a briefy moment to indicate that the data has been saved/cleared
-*🌟 The user can enter the task for the different time block
-*🌟 The time block is color coded depending on the user time of day; PAST, PRESENT, OR FUTURE
+-🌟 User is able to save the data in the local storage when the user pressed the save button
+-🌟 User is able to clear the data in the local storage when the user pressed the save button
+-🌟 The app retain the information when the close the browser and revisit the next time
+-🌟 A message appear for a briefy moment to indicate that the data has been saved/cleared
+-🌟 The user can enter the task for the different time block
+-🌟 The time block is color coded depending on the user time of day; PAST, PRESENT, OR FUTURE
   * ![#F2EDDC](https://via.placeholder.com/15/F2EDDC/000000?text=+) `PAST` 
   * ![#D96A29](https://via.placeholder.com/15/D96A29/000000?text=+) `PRESENT`
   * ![#69AFBF](https://via.placeholder.com/15/1589F0/000000?text=+) `FUTURE` 
