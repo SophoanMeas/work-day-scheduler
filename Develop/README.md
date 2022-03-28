@@ -1,18 +1,18 @@
 <h1 align="center">Work Day Scheduler
   
 # Work Day Scheduler 📅
-  
- 🔸 Work day schedule is a very simple calendar application that allows the user to enter a task in the different time section and save it into the local storage
- 🔸 The user can save the data, close the browser and the data will be reload the next time the user visit the site
 
-## How to use❗
+🔸 Work day schedule is a very simple calendar application that allows the user to enter a task in the different time section and save it into the local storage
+🔸 The user can save the data, close the browser and the data will be reload the next time the user visit the site
+
+## How to use ❗❗
 1. Click on the link to open the application
 2. Or you can clone the repository
 3. Use visual code or any text editor to view the source code. 
 4. Luanch the index.html file in your browser to open the application
 
 ## Application
-➡️<a href="https://sophoanmeas.github.io/Carleton-University-Web-Dev/03-JavaScript/Develop/" target="_blank"><h2>➡️Password Generator</a>
+➡️<a href="https://sophoanmeas.github.io/Carleton-University-Web-Dev/03-JavaScript/Develop/" target="_blank"><h2>➡️Work Day Scheduler</a>
 
 ## Functions/Features
 🌟 User is able to save the data in the local storage when the user pressed the save button
