@@ -1,13 +1,13 @@
 <h1 align="center">Work Day Scheduler
   
 # Work Day Scheduler 📅
-
+<ol>
   <li>
     🔸Work day schedule is a very simple calendar application that allows the user to enter a task in the different time section and save it into the local storage
   </li>
   <li>🔸 The user can save the data, close the browser and the data will be reload the next time the user visit the site
   </li>
-
+  </ol>
 
 ## How to use ❗❗
 1. Click on the link to open the application
