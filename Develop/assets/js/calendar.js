@@ -11,11 +11,11 @@ $(document).ready(function() {
             // console.log(hour)
 
             if (currentTime > hour) {
-                $(this).siblings().addClass("past"); // add class "pass" to change grey
+                $(this).siblings().addClass("past"); // add class "pass" to change text area to grey
             } else if (currentTime === hour) {
-                $(this).siblings().addClass("present"); // add class "present" to change red
+                $(this).siblings().addClass("present"); // add class "present" to change text area to red
             } else {
-                $(this).siblings().addClass("future"); // add class "pass" to change green
+                $(this).siblings().addClass("future"); // add class "pass" to change text area to green
             }
         })
     }
