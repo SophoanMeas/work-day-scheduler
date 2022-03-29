@@ -1,4 +1,4 @@
-const currentTime = moment().hours().format('HH'); // get window time
+const currentTime = moment().hours(); // get window time
 const currentDate = moment().format("dddd, MMMM, Do"); // get current date 
 
 $(document).ready(function() {
